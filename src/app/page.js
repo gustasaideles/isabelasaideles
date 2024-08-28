@@ -1,9 +1,10 @@
 import Footer from "@/components/Footer";
+import WhatsappBtn from "@/components/WhatsappBtn";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-10">
+    <main className="flex min-h-screen flex-col items-center justify-between pt-10">
       <div className="z-1 flex max-w-5xl w-full items-center  text-cyan-600 justify-center font-bold text-3xl lg:flex">
         <h1 className="">Implantando</h1>
         <div className="mt-5 pt-2 loader"> </div>
@@ -21,7 +22,8 @@ export default function Home() {
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0  ">
-        <Footer/>
+        <Footer />
+        <WhatsappBtn />
       </div>
     </main>
   );

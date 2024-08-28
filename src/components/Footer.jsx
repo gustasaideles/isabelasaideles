@@ -4,7 +4,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <div className="py-12 md:py-16">
+      <div className="pt-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
           {/* Top area: Blocks */}
@@ -39,7 +39,7 @@ function Footer() {
                 </a>
               </li>
               <li className="ml-4">
-                <a to="#" className="flex justify-center items-center text-grey-600 bg-cyan-600 hover:text-gray-100 hover:bg-sky-800 rounded-full transition duration-150 ease-in-out" aria-label="Instagram">
+                <a target="_blank" href="https://www.instagram.com/isabelasaideles/" className="flex justify-center items-center text-grey-600 bg-cyan-600 hover:text-gray-100 hover:bg-sky-800 rounded-full transition duration-150 ease-in-out" aria-label="Instagram">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="20.145" cy="11.892" r="1" />
                     <path d="M16 20c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z" />
@@ -57,7 +57,7 @@ function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-cyan-600 text-sm mr-4">&copy; Isabela Saideles Martins <br/> Especialista em Dentística
+            <div className="text-cyan-600 text-sm ">&copy; Isabela Saideles Martins <br/> Especialista em Dentística
 Odontologia Preventiva, Restauradora e Estética <br/> CRO-SC 19220</div>
 
           </div>
